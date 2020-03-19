@@ -10,4 +10,5 @@ end
 
 ActiveRecord::Base.establish_connection(db_configuration["development"])
 
+AccountCsv.new(ARGV[0]).call
 TransactionCsv.new(ARGV[1]).call
