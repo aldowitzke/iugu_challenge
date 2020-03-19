@@ -1,5 +1,4 @@
 require 'active_record'
-require 'pry'
 require_relative 'account_csv'
 require_relative 'transaction_csv'
 require_relative 'account_movement'
